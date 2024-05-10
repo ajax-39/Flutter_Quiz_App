@@ -1,16 +1,9 @@
-# l02_advance
+# Quizzy
 
-A new Flutter project.
+This Quiz App, built in Flutter, offers users multiple question screens and a final result screen to display their quiz results.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Flutter application aims to provide an engaging quiz experience for users. It features a series of multiple-choice questions presented on individual screens. Users progress through the questions until they reach the end of the quiz, where their overall performance is summarized on the result screen.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
