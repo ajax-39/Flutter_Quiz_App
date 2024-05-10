@@ -31,15 +31,22 @@ class _QuizState extends State<Quiz> {
     });
   }
 
+  void restartQuiz() {
+    setState(() {
+      selectedAnswers = [];
+      activeScreen = QuestionsScreen(onSelectAnswer: chooseAnswer);
+    });
+  }
+
   void chooseAnswer(String answer) {
     //passing function as argument
     selectedAnswers.add(answer);
 
     if (selectedAnswers.length == questions.length) {
       setState(() {
-        selectedAnswers = [];
         activeScreen = ResultScreen(
           chosenAnswers: selectedAnswers,
+          onRestart: restartQuiz,
         );
       });
     }
